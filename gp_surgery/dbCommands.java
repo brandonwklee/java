@@ -20,7 +20,7 @@ public class dbCommands {
     }
 
     public static void addData() throws SQLException {
-        String staffQuery = "INSERT INTO staff_information VALUES (1, 'nurse', 'peepee', 'god', 35, 'dfsfsdfs', 34345, 1)";
+        String staffQuery = "INSERT INTO staff_information VALUES (1, 'nurse', 'hello', 'god', 35, 'dfsfsdfs', 34345, 1)";
         String patientQuery = "INSERT INTO patient_information VALUES (1, 'mr', 'brandon', 'lee', 24, '58 wakehurst road eastbourne', 45345345, 'peepee')";
         statement = connection.createStatement();
         statement.executeUpdate(staffQuery);
